@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+  <title>AvedisyanVr</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+
+  <!--
+    - main container
+  -->
+  <div class="container">
+
+    <!--
+      - #HEADER SECTION
+    -->
+
+    <header class="">
+      <div class="navbar">
+
+        <!--
+          - menu button for small screen
+        -->
+        <button class="navbar-menu-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+
+        <a href="#" class="navbar-brand">
+          <img class="logo" src="./assets/images/logo.png" alt="">
+        </a>
+
+        <!--
+          - navbar navigation
+        -->
+
+        <nav class="">
+          <ul class="navbar-nav">
+
+            <li> <a href="#" class="navbar-link">VR դասեր</a> </li>
+            <li> <a href="#category" class="navbar-link">Առարկաներ</a> </li>
+            <li> <a href="#live" class="navbar-link ">Գրադարան</a> </li>
+
+          </ul>
+        </nav>
+
+  <a href="light mod/index2.html"> <img class="mod" src="./assets/images/moon.png" alt=""></a>
+        <!--
+          - search and sign-in
+        -->
+
+        <div class="navbar-actions">
+
+          <form action="#" class="navbar-form">
+            <input type="text" name="search" placeholder="Որոնե՞լ"class="navbar-form-search">
+
+            <button class="navbar-form-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <button class="navbar-form-close">
+              <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+          </form>
+
+
+          <!--
+            - search button for small screen
+          -->
+
+          <button class="navbar-search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <a href="#" class="navbar-signin">
+           <a href="login.html"><span>Մուտք</span></a> 
+            <ion-icon name="log-in-outline"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+    </header>
+
+
+
+
+
+    <!--
+      - MAIN SECTION
+    -->
+    <main>
+
+      <!--
+        - #BANNER SECTION
+      -->
+      <section class="banner">
+        <div class="banner-card">
+
+          <img src="./assets/images/3.jpeg" class="banner-img" alt="">
+
+          <div class="card-content">
+            <div class="card-info">
+
+              <div class="genre">
+              
+               
+              </div>
+
+              <div class="year">
+                
+               
+              </div>
+
+              <div class="duration">
+                
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #MOVIES SECTION
+      -->
+      <section class="movies">
+
+        <!--
+          - filter bar
+        -->
+        <div class="filter-bar">
+
+          <div class="filter-dropdowns">
+
+            <select name="genre" class="genre">
+              <option value="all genres">Առարկաներ</option>
+              <option value="action">Կենսաբանություն</option>
+              <option value="adventure">Քիմիա</option>
+              <option value="animal">Ֆիզիկա</option>
+              <option value="animation">Աշխարհագրություն</option>
+              <option value="action">Անգլերեն</option>
+              <option value="adventure">Ռուսերեն</option>
+              <option value="animal">Ֆրանսերեն</option>
+              <option value="animation">Գերմաներեն</option>
+             
+             
+            </select>
+
+      
+          </div>
+
+          <div class="filter-radios">
+
+            <input type="radio" name="grade" id="featured" checked>
+            <label for="featured">Նորություններ</label>
+
+            <input type="radio" name="grade" id="popular">
+            <label for="popular">Հայտնի</label>
+          </div>
+
+        </div>
+
+
+        <!--
+          - movies grid
+        -->
+
+        <div class="movies-grid">
+
+          <div class="movie-card">
+
+            <div class="card-head">
+            <a href="https://www.youtube.com/watch?v=aogLFedcnTI">  <img src="./assets/images/movies/1.jpg" alt="" class="card-img"></a>
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                <div class="play">
+                  <a href="https://www.youtube.com/watch?v=aogLFedcnTI"> <ion-icon name="play-circle-outline"></ion-icon></a>
+                 
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+             <a href="https://www.youtube.com/watch?v=aogLFedcnTI"><h3 class="card-title">Բջջի ներսում</h3></a>
+
+              <div class="card-info">
+               
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+            <a href="https://www.youtube.com/watch?v=GCqx0sowFg0&t=3s">  <img src="./assets/images/movies/2.jpg" alt="" class="card-img"></a>
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                
+
+                <div class="play">
+                 <a href="https://www.youtube.com/watch?v=GCqx0sowFg0&t=3s"> <ion-icon name="play-circle-outline"></ion-icon></a>                
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+             <a href="https://www.youtube.com/watch?v=GCqx0sowFg0&t=3s"> <h3 class="card-title">Չեռնոբիլ  </h3></a>
+
+              <div class="card-info">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+             <a href="https://www.youtube.com/watch?v=heAaD_sgTrQ"> <img src="./assets/images/movies/3.jpg" alt="" class="card-img"></a>
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                 <a href="https://www.youtube.com/watch?v=heAaD_sgTrQ"> <ion-icon name="bookmark-outline"></ion-icon></a>               
+                 </div>
+
+                
+
+                <div class="play">
+                 <a href="https://www.youtube.com/watch?v=heAaD_sgTrQ"> <ion-icon name="play-circle-outline"></ion-icon> </a>          </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Վերջին ընթրիք</h3>
+
+              <div class="card-info">
+                
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/4.png" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+              
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Սև Խոռոչ</h3>
+
+              <div class="card-info">
+           
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/5.jpg" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+              
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Մարս</h3>
+
+              <div class="card-info">
+                
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/6.jpg" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Երկիր</h3>
+
+              <div class="card-info">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/7.png" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+            
+
+                <div class="play">
+                  <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Ատոմ</h3>
+
+              <div class="card-info">
+   
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">            
+     </div>
+       </div>
+         </div>
+            </div>
+
+          </div>
+
+            </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!--
+          - load more button
+        -->
+        <button class="load-more">Ավելին</button>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #CATEGORY SECTION
+      -->
+      <section class="category" id="category">
+
+        <h2 class="section-heading">Բնագիտական առարկաներ</h2>
+
+        <div class="category-grid">
+
+          <div class="category-card">
+            <img src="./assets/images/biology.jpeg" alt="" class="card-img">
+            <div class="name">Կենսաբանություն</div>
+            <div class="total">10</div>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/images/chemistrypng.png" alt="" class="card-img">
+            <div class="name">Քիմիա</div>
+            <div class="total">0</div>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/images/physics.jpeg" alt="" class="card-img">
+            <div class="name">Ֆիզիկա</div>
+            <div class="total">0</div>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/images/geography.png" alt="" class="card-img">
+            <div class="name">Աշխարհագրություն</div>
+            <div class="total">0</div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="category" id="category">
+
+        <h2 class="section-heading">Հումանիտար առարկաներ</h2>
+
+        <div class="category-grid">
+
+          <div class="category-card">
+            <img src="./assets/images/drosh1.png" alt="" class="card-img">
+            <div class="name">Անգլերեն</div>
+            <div class="total">10</div>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/images/drosh2.png" alt="" class="card-img">
+            <div class="name">Ռուսերեն</div>
+            <div class="total">0</div>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/images/drosh3.png" alt="" class="card-img">
+            <div class="name">Ֆրանսերեն</div>
+            <div class="total">0</div>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/images/drosh4.jpeg" alt="" class="card-img">
+            <div class="name">Գերմաներեն</div>
+            <div class="total">0</div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #LIVE SECTION
+      -->
+      <section class="live" id="live">
+
+        <h2 class="section-heading">Գրադարան</h2>
+
+        <div class="live-grid">
+        
+          <div class="live-card">
+            
+            <div class="card-head">  
+              <a href="assets/images/girq1.pdf">
+              <img src="./assets/images/WhatsApp Image 2022-02-02 at 1.25.05 PM.jpeg" alt="" class="card-img">
+             </a> 
+             <div class="total-viewers">5 viewers</div>
+              <div class="play"></a>
+                <ion-icon name="cloud-download"></ion-icon>
+              </div>
+            </div>
+
+           <div class="card-body">
+              <h3 class="card-title">Ճակատագրի սև կատուն <br> Յակոբ Միքայէլեան</h3>
+            </div>
+
+          </div>
+
+          <div class="live-card">
+
+            <div class="card-head">
+              <a href="assets/images/girq1.pdf">
+              <img src="assets/images/23.jpeg" alt="" class="card-img">
+              <div class="total-viewers">15viewers</div>
+              <div class="play">
+                <ion-icon name="cloud-download"></ion-icon>
+              </div>
+            </div>
+</a>
+            <div class="card-body">
+              <h3 class="card-title">Տեսիլք և իրականություն 
+                <br>Մելանյա Գեղամյան
+              </h3>
+            </div>
+
+          </div>
+
+          <div class="live-card">
+
+            <div class="card-head">
+              <img src="./assets/images/3.png" alt="" class="card-img">
+              <div class="total-viewers">5 viewers</div>
+              <div class="play">
+                <ion-icon name="cloud-download"></ion-icon>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">
+                Ուխտագնացություն դեպի ուղեղ <br>
+                 Քրիստինե Սարգսյան</h3>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+    <!--
+      - FOOTER SECTION
+    -->
+    <footer>
+
+      <div class="footer-content">
+
+        <div class="footer-brand">
+          <img src="./assets/images/logo.png" alt="" class="footer-logo">
+          
+
+
+          <div class="social-link">
+
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+
+
+        <div class="footer-links">
+          <ul>
+
+            <h4 class="link-heading">GenZ</h4>
+
+            <li class="link-item"><a href="#">VRգրադարան</a></li>
+          </ul>
+
+      
+
+          <ul>
+
+            <li class="link-item"><a href="#">Vr դասեր</a></li>
+            <li class="link-item"><a href="#">Առարկաներ</a></li>
+            <li class="link-item"><a href="#">Գրադարան</a></li>
+
+          </ul>
+
+          <ul>
+
+            <h4 class="link-heading">Help</h4>
+
+            <li class="link-item"><a href="#">Account & Billing</a></li>
+            <li class="link-item"><a href="#">Plans & Pricing</a></li>
+            <li class="link-item"><a href="#">Supported devices</a></li>
+            <li class="link-item"><a href="#">Accessibility</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-copyright">
+
+        <div class="copyright">
+          <p>&copy;2022 GenZ</p>
+        </div>
+
+        <div class="wrapper">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms and conditions</a>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/main.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

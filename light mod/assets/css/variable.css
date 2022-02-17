@@ -1,0 +1,53 @@
+/*-------------------------------------*\
+  #variables.css
+\*-------------------------------------*/
+
+/**
+ * copyright 2021 @codewithsadee 
+ */
+
+
+
+
+
+/**
+ * all global variables 
+ */
+
+:root {
+
+  /**
+   * Colors 
+   */
+
+
+  --rich-black-fogra-30:   hsl(218, 26%, 53%);
+  --rich-black-fogra-29:   #cfd5e0;
+  --oxford-blue:           #6d7fa1;
+  --light-azure:           #546586;
+  --off-white:             #12161d;
+  --yellow:                hsl(45, 100%, 54%);
+  --white:                 #272b31;
+  --whit:#cfd5e0;
+
+
+
+  --ff-inter: "Inter", sans-serif;
+
+  --section-heading: 40px;
+  --fs-lg:           22px;
+  --fs-md:           17px;
+  --fs-sm:           14px;
+  --fs-x-sm:         12px;
+  
+  --fw-7: 700;
+  --fw-6: 600;
+  --fw-5: 500;
+
+  /**
+   * Spacing 
+   */
+
+  --px: 120px; /* padding-left & padding-right */
+
+}
